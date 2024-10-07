@@ -5,12 +5,9 @@ class Point():
         self.x = xInput
         self.y = yInput
 
-
 p = Point(2, 8)
 print(p.x)
 print(p.y)
-
-
 
 class Flight():
     def __init__(self, capacity):
